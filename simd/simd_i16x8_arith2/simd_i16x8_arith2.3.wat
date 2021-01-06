@@ -1,0 +1,1 @@
+(memory 1) (func (result v128) (i64x2.abs (v128.const i16x8 -1 -1 -1 -1 -1 -1 -1 -1)))

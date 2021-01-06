@@ -1,0 +1,1 @@
+(func (result v128) (i8x16.widen_high_i16x8_u (v128.const i16x8 0 0 0 0 0 0 0 0)))

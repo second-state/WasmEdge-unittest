@@ -104,7 +104,8 @@
 
 (module (table 0 funcref) (export "a" (table 0)))
 (module (table 0 funcref) (export "a" (table 0)) (export "b" (table 0)))
-(module (table 0 funcref) (table 0 funcref) (export "a" (table 0)) (export "b" (table 1)))
+;; No multiple tables yet.
+;; (module (table 0 funcref) (table 0 funcref) (export "a" (table 0)) (export "b" (table 1)))
 
 (module (table (export "a") 0 funcref))
 (module (table (export "a") 0 1 funcref))
@@ -129,10 +130,11 @@
   (module (table 0 funcref) (export "a" (table 0)) (export "a" (table 0)))
   "duplicate export name"
 )
-(assert_invalid
-  (module (table 0 funcref) (table 0 funcref) (export "a" (table 0)) (export "a" (table 1)))
-  "duplicate export name"
-)
+;; No multiple tables yet.
+;; (assert_invalid
+;;   (module (table 0 funcref) (table 0 funcref) (export "a" (table 0)) (export "a" (table 1)))
+;;   "duplicate export name"
+;; )
 (assert_invalid
   (module (table 0 funcref) (func) (export "a" (table 0)) (export "a" (func 0)))
   "duplicate export name"

@@ -11,9 +11,8 @@
   (global (export "global-i32") i32 (i32.const 55))
   (global (export "global-f32") f32 (f32.const 44))
   (table (export "table-10-inf") 10 funcref)
-  (table (export "table-10-20") 10 20 funcref)
+  ;; (table (export "table-10-20") 10 20 funcref)
   (memory (export "memory-2-inf") 2)
-  ;; Multiple memories are not yet supported
   ;; (memory (export "memory-2-4") 2 4)
 )
 
@@ -271,11 +270,11 @@
 
 (module
   (type (func (result i32)))
-  (import "spectest" "table" (table $tab 10 20 funcref))
-  (elem (table $tab) (i32.const 1) func $f $g)
+  (import "spectest" "table" (table 10 20 funcref))
+  (elem 0 (i32.const 1) $f $g)
 
   (func (export "call") (param i32) (result i32)
-    (call_indirect $tab (type 0) (local.get 0))
+    (call_indirect (type 0) (local.get 0))
   )
   (func $f (result i32) (i32.const 11))
   (func $g (result i32) (i32.const 22))
@@ -290,11 +289,11 @@
 
 (module
   (type (func (result i32)))
-  (table $tab (import "spectest" "table") 10 20 funcref)
-  (elem (table $tab) (i32.const 1) func $f $g)
+  (table (import "spectest" "table") 10 20 funcref)
+  (elem 0 (i32.const 1) $f $g)
 
   (func (export "call") (param i32) (result i32)
-    (call_indirect $tab (type 0) (local.get 0))
+    (call_indirect (type 0) (local.get 0))
   )
   (func $f (result i32) (i32.const 11))
   (func $g (result i32) (i32.const 22))
@@ -307,25 +306,22 @@
 (assert_trap (invoke "call" (i32.const 100)) "undefined element")
 
 
-(module
-  (import "spectest" "table" (table 0 funcref))
-  (import "spectest" "table" (table 0 funcref))
-  (table 10 funcref)
-  (table 10 funcref)
+(assert_invalid
+  (module (import "" "" (table 10 funcref)) (import "" "" (table 10 funcref)))
+  "multiple tables"
+)
+(assert_invalid
+  (module (import "" "" (table 10 funcref)) (table 10 funcref))
+  "multiple tables"
+)
+(assert_invalid
+  (module (table 10 funcref) (table 10 funcref))
+  "multiple tables"
 )
 
 (module (import "test" "table-10-inf" (table 10 funcref)))
 (module (import "test" "table-10-inf" (table 5 funcref)))
 (module (import "test" "table-10-inf" (table 0 funcref)))
-(module (import "test" "table-10-20" (table 10 funcref)))
-(module (import "test" "table-10-20" (table 5 funcref)))
-(module (import "test" "table-10-20" (table 0 funcref)))
-(module (import "test" "table-10-20" (table 10 20 funcref)))
-(module (import "test" "table-10-20" (table 5 20 funcref)))
-(module (import "test" "table-10-20" (table 0 20 funcref)))
-(module (import "test" "table-10-20" (table 10 25 funcref)))
-(module (import "test" "table-10-20" (table 5 25 funcref)))
-(module (import "test" "table-10-20" (table 0 25 funcref)))
 (module (import "spectest" "table" (table 10 funcref)))
 (module (import "spectest" "table" (table 5 funcref)))
 (module (import "spectest" "table" (table 0 funcref)))
@@ -350,14 +346,6 @@
 )
 (assert_unlinkable
   (module (import "test" "table-10-inf" (table 10 20 funcref)))
-  "incompatible import type"
-)
-(assert_unlinkable
-  (module (import "test" "table-10-20" (table 12 20 funcref)))
-  "incompatible import type"
-)
-(assert_unlinkable
-  (module (import "test" "table-10-20" (table 10 18 funcref)))
   "incompatible import type"
 )
 (assert_unlinkable
@@ -392,7 +380,7 @@
 
 (module
   (import "spectest" "memory" (memory 1 2))
-  (data (memory 0) (i32.const 10) "\10")
+  (data 0 (i32.const 10) "\10")
 
   (func (export "load") (param i32) (result i32) (i32.load (local.get 0)))
 )
@@ -404,7 +392,7 @@
 
 (module
   (memory (import "spectest" "memory") 1 2)
-  (data (memory 0) (i32.const 10) "\10")
+  (data 0 (i32.const 10) "\10")
 
   (func (export "load") (param i32) (result i32) (i32.load (local.get 0)))
 )
