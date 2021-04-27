@@ -1,4 +1,4 @@
-{"source_filename": "core/ref_func.wast",
+{"source_filename": "ref_func.wast",
  "commands": [
   {"type": "module", "line": 1, "filename": "ref_func.0.wasm"}, 
   {"type": "register", "line": 4, "as": "M"}, 

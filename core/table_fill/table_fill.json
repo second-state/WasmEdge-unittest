@@ -1,4 +1,4 @@
-{"source_filename": "core/table_fill.wast",
+{"source_filename": "table_fill.wast",
  "commands": [
   {"type": "module", "line": 1, "filename": "table_fill.0.wasm"}, 
   {"type": "assert_return", "line": 13, "action": {"type": "invoke", "field": "get", "args": [{"type": "i32", "value": "1"}]}, "expected": [{"type": "externref", "value": "null"}]}, 

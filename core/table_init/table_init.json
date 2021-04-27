@@ -1,4 +1,4 @@
-{"source_filename": "core/table_init.wast",
+{"source_filename": "table_init.wast",
  "commands": [
   {"type": "module", "line": 6, "filename": "table_init.0.wasm"}, 
   {"type": "register", "line": 13, "as": "a"}, 
