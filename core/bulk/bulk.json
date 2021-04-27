@@ -1,4 +1,4 @@
-{"source_filename": "core/bulk.wast",
+{"source_filename": "bulk.wast",
  "commands": [
   {"type": "module", "line": 2, "filename": "bulk.0.wasm"}, 
   {"type": "module", "line": 6, "filename": "bulk.1.wasm"}, 

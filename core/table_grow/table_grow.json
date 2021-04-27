@@ -1,4 +1,4 @@
-{"source_filename": "core/table_grow.wast",
+{"source_filename": "table_grow.wast",
  "commands": [
   {"type": "module", "line": 1, "filename": "table_grow.0.wasm"}, 
   {"type": "assert_return", "line": 13, "action": {"type": "invoke", "field": "size", "args": []}, "expected": [{"type": "i32", "value": "0"}]}, 
