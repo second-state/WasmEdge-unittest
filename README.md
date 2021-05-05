@@ -1,6 +1,6 @@
 # Introduction
 
-**ssvm-unittest** is a repository of unit test data by extracting WebAssembly (WASM) test suites.
+**WasmEdge-unittest** is a repository of unit test data by extracting WebAssembly (WASM) test suites.
 
 * Test data is from [WebAssembly Core Tests](https://github.com/WebAssembly/spec/tree/master/test/core).
 
@@ -11,10 +11,11 @@
 ## Active Branches
 
 * `master`: The newest test suite from the [WebAssembly Spec](https://github.com/WebAssembly/spec/).
-* `wasm-dev`: The developing branch for the newest [SSVM](https://github.com/second-state/SSVM).
+* `wasm-dev`: The developing branch for the newest [WasmEdge](https://github.com/WasmEdge/WasmEdge).
 
 ## Newest Tags
 
+* `wasm-dev-0.8.0`: The test suite for [WasmEdge 0.8.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.8.0).
 * `wasm-core-20210414`: The test suite in the date 2021/04/14 from the WASM spec.
 
 ## Inactive Branches
