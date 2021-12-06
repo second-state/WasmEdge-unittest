@@ -143,7 +143,7 @@
   {"type": "assert_malformed", "line": 1397, "filename": "binary.140.wasm", "text": "unexpected end of section or function", "module_type": "binary"}, 
   {"type": "assert_malformed", "line": 1407, "filename": "binary.141.wasm", "text": "integer too large", "module_type": "binary"}, 
   {"type": "assert_malformed", "line": 1416, "filename": "binary.142.wasm", "text": "integer too large", "module_type": "binary"}, 
-  {"type": "assert_malformed", "line": 1426, "filename": "binary.143.wasm", "text": "integer too large", "module_type": "binary"}, 
+  {"type": "assert_malformed", "line": 1426, "filename": "binary.143.wasm", "text": "integer representation too long", "module_type": "binary"}, 
   {"type": "module", "line": 1437, "filename": "binary.144.wasm"}, 
   {"type": "assert_malformed", "line": 1444, "filename": "binary.145.wasm", "text": "unexpected end of section or function", "module_type": "binary"}, 
   {"type": "assert_malformed", "line": 1454, "filename": "binary.146.wasm", "text": "integer too large", "module_type": "binary"}, 
@@ -168,4 +168,4 @@
   {"type": "module", "line": 1698, "filename": "binary.165.wasm"}, 
   {"type": "assert_malformed", "line": 1716, "filename": "binary.166.wasm", "text": "unexpected end", "module_type": "binary"}, 
   {"type": "module", "line": 1737, "filename": "binary.167.wasm"}, 
-  {"type": "assert_malformed", "line": 1751, "filename": "binary.168.wasm", "text": "junk after last section", "module_type": "binary"}]}
+  {"type": "assert_malformed", "line": 1751, "filename": "binary.168.wasm", "text": "unexpected content after last section", "module_type": "binary"}]}
