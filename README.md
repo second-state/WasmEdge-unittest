@@ -15,8 +15,8 @@
 
 ## Newest Tags
 
-* `wasm-dev-0.8.0`: The test suite for [WasmEdge 0.8.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.8.0).
-* `wasm-core-20210414`: The test suite in the date 2021/04/14 from the WASM spec.
+* `wasm-dev-0.9.0`: The test suite for [WasmEdge 0.9.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.0).
+* `wasm-core-20211119`: The test suite in the date 2021/11/19 from the WASM spec.
 
 ## Inactive Branches
 
@@ -24,6 +24,9 @@
 
 ## Older Tags
 
+* `wasm-dev-0.8.0`: The test suite for [WasmEdge 0.8.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.8.0).
+* `wasm-core-20210414`: The test suite in the date 2021/04/14 from the WASM spec.
 * `wasm-ref-types`: The test suite for the bulk-memory-operations and reference-types proposals.
 * `wasm-1.1`: The test suite for the WASM 1.1.
 * `wasm-1.0`: The test suite for the WASM 1.0.
+
