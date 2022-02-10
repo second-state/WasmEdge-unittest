@@ -1410,7 +1410,7 @@
       "\70"                                 ;; anyfunc
       "\02"                                 ;; malformed table limits flag
   )
-  "integer too large"
+  "shared memory must have maximum"
 )
 (assert_malformed
   (module binary
@@ -1420,7 +1420,7 @@
       "\02"                                 ;; malformed table limits flag
       "\00"                                 ;; dummy byte
   )
-  "integer too large"
+  "shared memory must have maximum"
 )
 (assert_malformed
   (module binary
@@ -1456,7 +1456,7 @@
       "\05\02\01"                           ;; memory section with one entry
       "\02"                                 ;; malformed memory limits flag
   )
-  "integer too large"
+  "shared memory must have maximum"
 )
 (assert_malformed
   (module binary
@@ -1465,7 +1465,7 @@
       "\02"                                 ;; malformed memory limits flag
       "\00"                                 ;; dummy byte
   )
-  "integer too large"
+  "shared memory must have maximum"
 )
 (assert_malformed
   (module binary
