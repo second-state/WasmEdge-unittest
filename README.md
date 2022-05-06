@@ -10,6 +10,11 @@
 
 * `core/select/select.wast` line 325: `invalid result arity` -> `type mismatch`
   * This error message is for the WAT format, WASM format cannot detect this error by the bytecode.
+* `threads/atomic/atomic.wast`: divergence behavior
+  * Please check [this issue](https://github.com/WebAssembly/threads/issues/195).
+  * Modified the `wast` file for fitting the `compare_exchange_strong` behavior in C++.
+* `threads/atomic_wait_notify/atomic_wait_notify.wast`: line 73: remove the thread tests.
+  * The S-Expression of threads cannot be parsed by wabt, therefore remove them.
 
 ## Branches And Tags
 
