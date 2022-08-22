@@ -20,15 +20,12 @@
 
 ### Newest Tags
 
-* `wasm-dev-0.10.1`: The test suite for [WasmEdge 0.10.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.10.1).
+* `wasm-dev-0.11.0`: The test suite for [WasmEdge 0.11.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.11.0                                                              ).
 * `wasm-core-20220712`: The test suite in the date 2022/07/12 from the WASM spec.
-
-### Inactive Branches
-
-* `wasm-core`: The older test suite for the [SSVM 0.7.2](https://github.com/second-state/SSVM/releases/tag/0.7.2) and [SSVM 0.7.3](https://github.com/second-state/SSVM/releases/tag/0.7.3). Deprecated and will not update.
 
 ### Older Tags
 
+* `wasm-dev-0.10.1`: The test suite for [WasmEdge 0.10.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.10.1).
 * `wasm-dev-0.10.0`: The test suite for [WasmEdge 0.10.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.10.0).
 * `wasm-dev-0.9.1`: The test suite for [WasmEdge 0.9.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.1).
 * `wasm-dev-0.9.0`: The test suite for [WasmEdge 0.9.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.0).
@@ -38,6 +35,10 @@
 * `wasm-core-20211214`: The test suite in the date 2021/12/14 from the WASM spec.
 * `wasm-core-20211119`: The test suite in the date 2021/11/19 from the WASM spec.
 * `wasm-core-20210414`: The test suite in the date 2021/04/14 from the WASM spec.
+
+### Deprecated
+
+* `wasm-core`: The older test suite for the [SSVM 0.7.2](https://github.com/second-state/SSVM/releases/tag/0.7.2) and [SSVM 0.7.3](https://github.com/second-state/SSVM/releases/tag/0.7.3). Deprecated and will not update.
 * `wasm-ref-types`: The test suite for the bulk-memory-operations and reference-types proposals.
 * `wasm-1.1`: The test suite for the WASM 1.1.
 * `wasm-1.0`: The test suite for the WASM 1.0.
