@@ -21,7 +21,7 @@
 ### Newest Tags
 
 * `wasm-dev-0.11.0`: The test suite for [WasmEdge 0.11.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.11.0                                                              ).
-* `wasm-core-20221026`: The test suite in the date 2022/10/26 from the WASM spec.
+* `wasm-core-20221215`: The test suite in the date 2022/12/15 from the WASM spec.
 
 ### Older Tags
 
@@ -30,6 +30,7 @@
 * `wasm-dev-0.9.1`: The test suite for [WasmEdge 0.9.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.1).
 * `wasm-dev-0.9.0`: The test suite for [WasmEdge 0.9.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.0).
 * `wasm-dev-0.8.0`: The test suite for [WasmEdge 0.8.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.8.0).
+* `wasm-core-20221026`: The test suite in the date 2022/10/26 from the WASM spec.
 * `wasm-core-20220712`: The test suite in the date 2022/07/12 from the WASM spec.
 * `wasm-core-20220504`: The test suite in the date 2022/05/04 from the WASM spec.
 * `wasm-core-20220223`: The test suite in the date 2022/02/23 from the WASM spec.
@@ -43,3 +44,4 @@
 * `wasm-ref-types`: The test suite for the bulk-memory-operations and reference-types proposals.
 * `wasm-1.1`: The test suite for the WASM 1.1.
 * `wasm-1.0`: The test suite for the WASM 1.0.
+
