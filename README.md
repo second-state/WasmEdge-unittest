@@ -17,6 +17,8 @@
   * Modified the `wast` file for fitting the `compare_exchange_strong` behavior in C++.
 * `threads/atomic_wait_notify/atomic_wait_notify.wast`: line 73: remove the thread tests.
   * The S-Expression of threads cannot be parsed by wabt, therefore remove them.
+* `function-references/select/select.wast` line 369: `invalid result arity` -> `type mismatch`
+  * This error message is for the WAT format, WASM format cannot detect this error by the bytecode.
 
 ## Branches And Tags
 
