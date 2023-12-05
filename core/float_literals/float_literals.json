@@ -123,7 +123,7 @@
   {"type": "assert_malformed", "line": 344, "filename": "float_literals.37.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 348, "filename": "float_literals.38.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 352, "filename": "float_literals.39.wat", "text": "unknown operator", "module_type": "text"}, 
-  {"type": "assert_malformed", "line": 357, "filename": "float_literals.40.wat", "text": "unknown operator", "module_type": "text"}, 
+  {"type": "assert_malformed", "line": 356, "filename": "float_literals.40.wat", "text": "constant out of range", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 361, "filename": "float_literals.41.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 365, "filename": "float_literals.42.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 369, "filename": "float_literals.43.wat", "text": "unknown operator", "module_type": "text"}, 
@@ -160,4 +160,6 @@
   {"type": "assert_malformed", "line": 493, "filename": "float_literals.74.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 497, "filename": "float_literals.75.wat", "text": "unknown operator", "module_type": "text"}, 
   {"type": "assert_malformed", "line": 501, "filename": "float_literals.76.wat", "text": "unknown operator", "module_type": "text"}, 
-  {"type": "assert_malformed", "line": 505, "filename": "float_literals.77.wat", "text": "unknown operator", "module_type": "text"}]}
+  {"type": "assert_malformed", "line": 505, "filename": "float_literals.77.wat", "text": "unknown operator", "module_type": "text"}, 
+  {"type": "assert_malformed", "line": 509, "filename": "float_literals.78.wat", "text": "unknown operator", "module_type": "text"}, 
+  {"type": "assert_malformed", "line": 513, "filename": "float_literals.79.wat", "text": "constant out of range", "module_type": "text"}]}
