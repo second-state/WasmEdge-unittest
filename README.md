@@ -22,11 +22,12 @@
 
 ### Newest Tags
 
-* `wasm-dev-0.13.0`: The test suite for [WasmEdge 0.13.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.13.0).
+* `wasm-dev-0.14.0`: The test suite for [WasmEdge 0.14.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.14.0).
 * `wasm-core-20240217`: The test suite in the date 2024/02/17 from the WASM spec.
 
 ### Older Tags
 
+* `wasm-dev-0.13.0`: The test suite for [WasmEdge 0.13.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.13.0).
 * `wasm-dev-0.12.0`: The test suite for [WasmEdge 0.12.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.12.0).
 * `wasm-dev-0.11.0`: The test suite for [WasmEdge 0.11.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.11.0).
 * `wasm-dev-0.10.1`: The test suite for [WasmEdge 0.10.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.10.1).
