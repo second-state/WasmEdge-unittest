@@ -23,7 +23,7 @@
 ### Newest Tags
 
 * `wasm-dev-0.13.0`: The test suite for [WasmEdge 0.13.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.13.0).
-* `wasm-core-20231026`: The test suite in the date 2023/10/26 from the WASM spec.
+* `wasm-core-20240217`: The test suite in the date 2024/02/17 from the WASM spec.
 
 ### Older Tags
 
@@ -34,6 +34,7 @@
 * `wasm-dev-0.9.1`: The test suite for [WasmEdge 0.9.1](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.1).
 * `wasm-dev-0.9.0`: The test suite for [WasmEdge 0.9.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.9.0).
 * `wasm-dev-0.8.0`: The test suite for [WasmEdge 0.8.0](https://github.com/WasmEdge/WasmEdge/releases/tag/0.8.0).
+* `wasm-core-20231026`: The test suite in the date 2023/10/26 from the WASM spec.
 * `wasm-core-20230511`: The test suite in the date 2023/05/11 from the WASM spec.
 * `wasm-core-20221215`: The test suite in the date 2022/12/15 from the WASM spec.
 * `wasm-core-20221026`: The test suite in the date 2022/10/26 from the WASM spec.
