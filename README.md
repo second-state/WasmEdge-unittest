@@ -1,3 +1,5 @@
+# THIS REPO HAS BEEN MIGRATED INTO [WasmEdge-SpecTest](https://github.com/WasmEdge/wasmedge-spectest)
+
 # Introduction
 
 **WasmEdge-unittest** is a repository of unit test data by extracting WebAssembly (WASM) test suites.
